@@ -63,6 +63,7 @@ String myName = "Vilma";
 
                 // double type for number with fraction part
                 double trueEleven = 11.0;
+
             }
         }
 
