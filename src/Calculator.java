@@ -51,7 +51,8 @@ public class Calculator {
         int sum = firstNumber + secondNumber+thirdNumber;
         System.out.println("Sum is: " + sum);
 
-
+// \n to separate lines
+//                System.out.println(\n);
 
 
 
