@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.util.Scanner;
 
 //public class Calculator {
@@ -74,7 +75,16 @@ import java.util.Scanner;
 } else {
                                 System.out.println("This will be run when condition is false");
                         }
+Scanner inputReader = new Scanner(System.in);
+                        System.out.println("Tell me what age and hight of People");
 
+                        int peopleAge1 = inputReader.nextInt();
+                    int peopleHigh1 = inputReader.nextInt();
+                        if (peopleAge1>=16|| peopleHigh1 >=171){
+                                System.out.println("Welcome");
+                        } else {
+                                System.out.println( "Go away, please");
+                        }
 
 
 
