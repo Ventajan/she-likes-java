@@ -1,3 +1,5 @@
+package com.sda.she_likes_java.homework;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("10000000");
@@ -23,7 +25,7 @@ public class Main {
 //        String otherFive = "5";
 //        System.out.println(five + otherFive);
 ////        Mariusz Pastuszka 19:25
-////        public class Main {
+////        public class com.sda.she_likes_java.homework.Main {
 ////            public static void main(String[] args) {
 //                System.out.println("Hello world!");
 //                // 100 it's number literal (just value)
