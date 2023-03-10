@@ -5,10 +5,6 @@ import java.util.Scanner;
 //psvm shortcut
 
 
-
-
-
-
 //    public static void main(String[] args) {
 //        System.out.println("Calculator....");
 //        System.out.println("Calculating sum of two numbers");
@@ -60,32 +56,31 @@ import java.util.Scanner;
 //                - get the user’s age and height from the console
 //                        - only people who are at least 16 years old and taller (or shorter than - at your choice) can enter the disco
 //                - print a text saying how the verification went in both cases
-                public class Calculator {
+public class Calculator {
 
-                public static void main (String[] args){
-       System.out.println("Condtionals :)");
-       int age = 15;
-       int higt = 171;
-       boolean isPeople = age >=16;
-                        System.out.println("is people: "+isPeople);
-                        boolean condition = true;
+    public static void main(String[] args) {
+        System.out.println("Condtionals :)");
+        int age = 15;
+        int higt = 171;
+        boolean isPeople = age >= 16;
+        System.out.println("is people: " + isPeople);
+        boolean condition = true;
 
-                        if (condition){
-                                System.out.println("This will be run only when condition is true");
-} else {
-                                System.out.println("This will be run when condition is false");
-                        }
-Scanner inputReader = new Scanner(System.in);
-                        System.out.println("Tell me what age and hight of People");
+        if (condition) {
+            System.out.println("This will be run only when condition is true");
+        } else {
+            System.out.println("This will be run when condition is false");
+        }
+        Scanner inputReader = new Scanner(System.in);
+        System.out.println("Tell me what age and hight of People");
 
-                        int peopleAge1 = inputReader.nextInt();
-                    int peopleHigh1 = inputReader.nextInt();
-                        if (peopleAge1>=16|| peopleHigh1 >=171){
-                                System.out.println("Welcome");
-                        } else {
-                                System.out.println( "Go away, please");
-                        }
-
+        int peopleAge1 = inputReader.nextInt();
+        int peopleHigh1 = inputReader.nextInt();
+        if (peopleAge1 >= 16 || peopleHigh1 >= 171) {
+            System.out.println("Welcome");
+        } else {
+            System.out.println("Go away, please");
+        }
 
 
     }

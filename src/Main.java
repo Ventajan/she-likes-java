@@ -8,13 +8,13 @@ public class Main {
 // needs type of variable
 // that data type limit possible set of allowed values
 // int - integer numbers
-    int myDaughterAge = 5;
-       myDaughterAge = 26;
+        int myDaughterAge = 5;
+        myDaughterAge = 26;
         System.out.println(myDaughterAge);
-String myName = "Vilma";
+        String myName = "Vilma";
         System.out.println(myName);
         String mySurname = "Jankun";
-        System.out.println(myName+" "+ mySurname);
+        System.out.println(myName + " " + mySurname);
 //        to  Everyone
 //        String myName = "Mariusz";
 //        String mySurname = "Pastuszka";
@@ -83,14 +83,6 @@ String myName = "Vilma";
 //                int result = 9/4;
 //                result = 9%4;
 //                System.out.println("and now result is: " +result);
-
-
-
-
-
-
-
-
 
 
     }
