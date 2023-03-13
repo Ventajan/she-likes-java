@@ -12,6 +12,6 @@ public class WhileGrow {
 //            ageOfTheKid = ageOfTheKid + 1;
 //            ageOfTheKid++; this is shorter version of: ageOfTheKid =ageOfTheKid +1;
         }
-
+        System.out.println("I am "+ ageOfTheKid+"years old, Mama: yes, go");
     }
 }
