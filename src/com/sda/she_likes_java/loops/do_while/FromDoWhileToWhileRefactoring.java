@@ -1,6 +1,6 @@
 package com.sda.she_likes_java.loops.do_while;
 
-public class DoWhileLoop {
+public class FromDoWhileToWhileRefactoring {
     public static void main(String[] args) {
         int numberOfTrials = 3;
         do {
@@ -17,7 +17,6 @@ public class DoWhileLoop {
 
     }
 }
-
 
 
 
