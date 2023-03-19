@@ -2,7 +2,7 @@ package com.sda.she_likes_java.controls;
 
 import java.util.Scanner;
 
-public class WeekDaysWithIf {
+public class WeekdaysWithSwitch {
     public static void main(String[] args) {
         // 1..7
         // 1 means monday
