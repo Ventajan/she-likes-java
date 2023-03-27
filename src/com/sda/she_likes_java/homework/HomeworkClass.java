@@ -1,5 +1,7 @@
 package com.sda.she_likes_java.homework;
 
+import com.sda.she_likes_java.classes.Person;
+
 public class HomeworkClass {
 //    Exercise 15.
 //    Create a Parent class containing the following variables:
@@ -16,20 +18,17 @@ public class HomeworkClass {
         Person secondChild;
         Address address;
 
-        public class Address {
-            Address  = new Address;
-        }
 
-        public static void main(String[] args) {
-            Person firstChild = new Person;
-        }
-
-        public static void main(String[] args) {
-            Person secondChild = new Person;
-        }
-
-
-        public class Person;
     }
-}
+
+    public static void main(String[] args) {
+        Address someAddress = new Address();
+        someAddress.country = "Poland:) ";
+    }
+
+
+
+
+    }
+
 
