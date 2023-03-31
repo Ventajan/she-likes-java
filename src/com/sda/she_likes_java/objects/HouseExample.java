@@ -22,6 +22,30 @@ public class HouseExample {
         System.out.println("Currently the house looks like this: "+ myHouse);
         System.out.println("Mary:"+ wife);
         System.out.println("Jack:" + husband);
+        myHouse = new House(1, 1);
+        System.out.println("Now myHouse reference: " + myHouse);
+        System.out.println("Mary: " + wife);
+        System.out.println("Jack: " + husband);
+        wife.getHouse().setNumberOfBathrooms(3); // House house = wife.getHouse(); house.setNumberOfBathrooms(3);
+        System.out.println("Currently the house looks like this: " + myHouse);
+
+        husband.getHouse().setNumberOfBathrooms(1);
+        System.out.println("Currently the house looks like this: " + myHouse);
+
+        System.out.println("Mary: " + wife);
+        System.out.println("Jack: " + husband);
+
+//        String haha = new House(1, 2);
+        myHouse = new House(1, 1);
+        System.out.println("Now myHouse reference: " + myHouse);
+        System.out.println("Mary: " + wife);
+        System.out.println("Jack: " + husband);
+
+        myHouse = new House(10, 10);
+        wife.setHouse(myHouse);
+        System.out.println("Mary: " + wife);
+        System.out.println("Jack: " + husband);
+        wife.setHouse(husband.getHouse());
     }
 }
 
