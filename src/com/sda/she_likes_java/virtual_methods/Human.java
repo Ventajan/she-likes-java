@@ -4,5 +4,6 @@ public class Human extends Manmal{
     @Override
     public void whoYouAre() {
         super.whoYouAre();
+        System.out.println("I am Human");
     }
 }
