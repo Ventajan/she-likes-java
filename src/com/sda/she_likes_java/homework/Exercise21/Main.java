@@ -6,7 +6,6 @@ public class Main {
         Vehile Ship = new Ship();
         Ship.movementType();
         ((Floating)Ship).floating();
-
         Vehile airplane = new Airplane();
        airplane.movementType();
         ((Flying)airplane).flying();
