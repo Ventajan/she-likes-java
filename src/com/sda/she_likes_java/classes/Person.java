@@ -5,4 +5,11 @@ public class Person {
     String surname;
     int age;
     String address;
+
+    public Person(String mariusz, String s) {
+    }
+
+    public Person() {
+
+    }
 }
