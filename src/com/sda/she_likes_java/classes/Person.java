@@ -12,4 +12,8 @@ public class Person {
     public Person() {
 
     }
+
+    public Object getName() {
+        return null;
+    }
 }
