@@ -1,10 +1,9 @@
 package com.sda.she_likes_java.sorting;
 
-
 import java.util.Comparator;
 
-public class LexicalOrderForSortedPerson implements Comparator<SortedPerson> {
-
+public class ReversedLexicalOrderForSortedPerson
+        implements Comparator<SortedPerson> {
     @Override
     public int compare(SortedPerson o1, SortedPerson o2) {
         String name1 = o1.getName();
@@ -13,3 +12,4 @@ public class LexicalOrderForSortedPerson implements Comparator<SortedPerson> {
         return name2.compareTo(name1);
     }
 }
+
