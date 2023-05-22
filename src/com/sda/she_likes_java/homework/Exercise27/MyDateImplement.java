@@ -15,8 +15,14 @@ public class MyDateImplement {
         for (
                 MyDate date : dates) {
             System.out.println(date.getYear() + "-" + date.getMonth() + "-" + date.getDay());
+
         }
     }
 }
 
-
+//    ComparingHouseByNumberOfFloors comparingHouseByNumberOfFloors = new ComparingHouseByNumberOfFloors();
+//    HouseComparingByCountry houseComparingByCountry = new HouseComparingByCountry();
+//        Collections.sort(myHouse,
+//                comparingHouseByNumberOfFloors.
+//                reversed().
+//                thenComparing(houseComparingByCountry));
