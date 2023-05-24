@@ -21,7 +21,7 @@ public class SecretExample {
             e.printStackTrace();
         }
         System.out.println("After problematic source code");
-        Exception exception = new DecryptionIssueException("no reason");
+
         System.out.println();
         System.out.println("Let's play again with our own exceptions");
         try {
@@ -31,11 +31,12 @@ public class SecretExample {
         } catch (DecryptionIssueException e) {
             System.out.println("Cannot decrypt enemy's secret: " + e.getMessage());
         }
-        System.out.println("Now with single catch");
-        try {
-            secretStorage.decrypt();
-        } catch (Exception e) {
-            System.out.println("Generic catch all :)");
-        }
     }
 }
+
+
+
+
+
+
+
